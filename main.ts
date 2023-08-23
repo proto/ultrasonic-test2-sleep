@@ -1,6 +1,11 @@
 let maxLevel = 0
 let minLevel = 0
 let distance = 0
+/**
+ * us-100
+ * 
+ * ultrasonic sensor
+ */
 power.fullPowerEvery(10000, function () {
     led.setBrightness(20)
     maxLevel = 10
